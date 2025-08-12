@@ -1,12 +1,30 @@
-# React + Vite
+# 🪄 Token Wizard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Token Wizard is a simple web-based tool built with **React**, **Vite**, and **Tailwind CSS** that allows you to:
+- **Encode** text into tokens  
+- **Decode** tokens back into text  
+- **Generate a vocabulary mix** from input text  
 
-Currently, two official plugins are available:
+This tool uses the [`js-tiktoken`](https://www.npmjs.com/package/js-tiktoken) library for tokenization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshot
+<img width="1919" height="1077" alt="Screenshot 2025-08-13 010621" src="https://github.com/user-attachments/assets/c6f2553a-acfe-4d3f-a0eb-15e24fab71e3" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+- **Text to Token Encoding** – Convert plain text into token IDs  
+- **Token to Text Decoding** – Transform token IDs back into readable text  
+- **Vocab Mix Generator** – Create a fun letter mix from your tokens  
+- **Modern UI** – Clean card layout with transparent effect and background image  
+
+---
+
+## 🛠 Installation
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/token-wizard.git
+cd token-wizard
